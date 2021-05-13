@@ -63,12 +63,12 @@ it must be deleted and all the playlists must be updated. The same operations ar
 should also be applied for tables
 
 
-:pushpin: Some images from the project: <br>
-<a href="https://resimlink.com/jTislDc" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/jTislDc.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a><br>
-<a href="https://resimlink.com/RbOLEA" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/RbOLEA.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a><br>
+:pushpin: Some images from the project: <br><br><br>
+<a href="https://resimlink.com/jTislDc" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/jTislDc.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a><br><br>
+<a href="https://resimlink.com/RbOLEA" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/RbOLEA.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a><br><br>
 <a href="https://resimlink.com/nS1xM" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/nS1xM.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a><br>
-<a href="https://resimlink.com/KgrQfj" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/KgrQfj.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a><br>
+<a href="https://resimlink.com/KgrQfj" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/KgrQfj.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a><br><br>
 <a href="https://resimlink.com/5hAU" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/5hAU.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a><br>
-<a href="https://resimlink.com/ODETWkh6" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/ODETWkh6.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a><br>
+<a href="https://resimlink.com/ODETWkh6" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/ODETWkh6.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a><br><br>
 
 
