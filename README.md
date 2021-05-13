@@ -63,7 +63,7 @@ it must be deleted and all the playlists must be updated. The same operations ar
 should also be applied for tables
 
 
-:pushpin: Some images from the project:
+:pushpin: Some images from the project: <br>
 <a href="https://resimlink.com/jTislDc" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/jTislDc.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a><br>
 <a href="https://resimlink.com/RbOLEA" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/RbOLEA.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a><br>
 <a href="https://resimlink.com/nS1xM" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/nS1xM.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a><br>
