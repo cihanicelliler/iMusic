@@ -71,7 +71,7 @@ should also be applied for tables
 <a href="https://resimlink.com/5hAU" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/5hAU.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a><br>
 <a href="https://resimlink.com/ODETWkh6" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/ODETWkh6.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a><br><br><br><br>
 
-# ER DIAGRAM
+# :art:ER DIAGRAM:art:
 <br>
 
 <a href="https://resimlink.com/l9ZkU" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/l9ZkU.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a>
