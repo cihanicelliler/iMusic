@@ -24,32 +24,36 @@ namespace iMusic
 
         private void login_btn_Click(object sender, EventArgs e)
         {
-
-            string userName = txtUserName.Text;
-            string password = txtPassword.Text;
-            connection = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=iMusic;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
-            command = new SqlCommand();
-            connection.Open();
-            command.Connection = connection;
-            command.CommandText = "Select * from users where UserName='" + userName + "' and Password='" + password + "'";
-            id = (int)command.ExecuteScalar();
-            dataReader = command.ExecuteReader();
-            if (dataReader.Read())
+            try
             {
-                MessageBox.Show("Login is succeed!");
-                new HomePage(id).Show();
-                this.Hide();
-                connection.Close();
+                string userName = txtUserName.Text;
+                string password = txtPassword.Text;
+                connection = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=iMusic;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+                command = new SqlCommand();
+                connection.Open();
+                command.Connection = connection;
+                command.CommandText = "Select * from users where UserName='" + userName + "' and Password='" + password + "'";
+                id = (int)command.ExecuteScalar();
+                dataReader = command.ExecuteReader();
+                if (dataReader.Read())
+                {
+                    MessageBox.Show("Login is succeed!");
+                    new HomePage(id).Show();
+                    this.Hide();
+                    connection.Close();
 
+                }
+                else
+                {
+                    MessageBox.Show("Wrong user name or email");
+                }
             }
-            else
+            catch (Exception error)
             {
+
                 MessageBox.Show("Wrong user name or email");
+                Console.WriteLine(error);
             }
-
-
-
-
 
         }
         private void register_btn_Click(object sender, EventArgs e)

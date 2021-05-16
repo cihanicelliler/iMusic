@@ -300,7 +300,7 @@ namespace iMusic
             // 
             this.dgv_top_countries.AllowUserToAddRows = false;
             this.dgv_top_countries.AllowUserToDeleteRows = false;
-            this.dgv_top_countries.BackgroundColor = System.Drawing.Color.White;
+            this.dgv_top_countries.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(20)))));
             this.dgv_top_countries.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgv_top_countries.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_top_countries.Location = new System.Drawing.Point(1650, 558);

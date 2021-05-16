@@ -53,11 +53,13 @@ namespace iMusic
                 " categories.CategoryName as [Category Name]," +
                 " musics.ListeningCount as Count from musics " +
                 "inner join categories on categories.CategoryId = musics.CategoryId " +
-                "inner join artists on artists.ArtistId = musics.ArtistId ", connection);
+                "inner join artists on artists.ArtistId = musics.ArtistId " +
+                "ORDER BY musics.ListeningCount DESC", connection);
             DataTable table = new DataTable();
             dataAdapter.Fill(table);
             dgv_top_ten.DataSource = table;
             connection.Close();
+
         }
 
         void GetMusics()
@@ -148,8 +150,7 @@ namespace iMusic
                 " categories.CategoryName as [Category Name] from musics " +
                 "inner join categories on categories.CategoryId = musics.CategoryId " +
                 "inner join artists on artists.ArtistId = musics.ArtistId " +
-                "inner join playlists on playlists.MusicId = musics.MusicId " +
-                "inner join users on users.Id = playlists.UserId ", connection);
+                "ORDER BY musics.ListeningCount DESC", connection);
             DataTable table = new DataTable();
             dataAdapter.Fill(table);
             dgv_top_countries.DataSource = table;
@@ -540,7 +541,8 @@ namespace iMusic
                 " categories.CategoryName as [Category Name] from musics " +
                 "inner join categories on categories.CategoryId = musics.CategoryId " +
                 "inner join artists on artists.ArtistId = musics.ArtistId " +
-                "WHERE categories.CategoryId = 1", connection);
+                "WHERE categories.CategoryId = 1" +
+                "ORDER BY musics.ListeningCount DESC", connection);
             DataTable table = new DataTable();
             dataAdapter.Fill(table);
             dgv_musics_pop.DataSource = table;
@@ -554,7 +556,8 @@ namespace iMusic
                 "categories.CategoryName as [Category Name] from musics " +
                 "inner join categories on musics.CategoryId = categories.CategoryId " +
                 "inner join artists on musics.ArtistId = artists.ArtistId " +
-                "WHERE categories.CategoryId = 2", connection);
+                "WHERE categories.CategoryId = 2" +
+                "ORDER BY musics.ListeningCount DESC", connection);
             DataTable table1 = new DataTable();
             dataAdapter.Fill(table1);
             dgv_musics_jazz.DataSource = table1;
@@ -568,7 +571,8 @@ namespace iMusic
                 " categories.CategoryName as [Category Name] from musics " +
                 "inner join categories on musics.CategoryId = categories.CategoryId " +
                 "inner join artists on musics.ArtistId = artists.ArtistId " +
-                "WHERE categories.CategoryId = 3", connection);
+                "WHERE categories.CategoryId = 3" +
+                "ORDER BY musics.ListeningCount DESC", connection);
             DataTable table2 = new DataTable();
             dataAdapter.Fill(table2);
             dgv_musics_classical.DataSource = table2;
