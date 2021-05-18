@@ -38,21 +38,10 @@ namespace iMusic
                 dataReader = command.ExecuteReader();
                 if (dataReader.Read())
                 {
-                    this.checkUserPremium();
-                    if (this.isPaid)
-                    {
-                        MessageBox.Show("Login is succeed!");
-                        new HomePage(id).Show();
-                        this.Hide();
-                        connection.Close();
-                    }
-                    else
-                    {
-                        MessageBox.Show("You need to pay the price first!");
-                        connection.Close();
-                    }
-                    
-
+                    MessageBox.Show("Login is succeed!");
+                    new HomePage(id).Show();
+                    this.Hide();
+                    connection.Close();
                 }
                 else
                 {
@@ -89,20 +78,6 @@ namespace iMusic
         {
             Application.Exit();
         }
-        private void checkUserPremium()
-        {
-            string userName = txtUserName.Text;
-            string password = txtPassword.Text;
-            connection = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=iMusic;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
-            command = new SqlCommand();
-            connection.Open();
-            command.Connection = connection;
-            command.CommandText = "Select Premium_Users.IsPaid from users " +
-                "inner join Premium_Users on Premium_Users.UserId = users.Id" +
-                " where UserName='" + userName + "' and Password='" + password + "'";
-            isPaid = (bool)command.ExecuteScalar();
-        }
-
 
     }
 }
